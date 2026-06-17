@@ -1,10 +1,4 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 import {
   FramerMotionIcon,
   ReactRouterDomIcon,
@@ -19,7 +13,6 @@ import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 
-
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
 import SolidjsSvg from "@/public/icons/solidjs.svg";
@@ -28,15 +21,11 @@ import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
 
-
-
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 
-
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
-
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -61,7 +50,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Typescript",
         icon: TypescriptSvg,
-      }
+      },
     ],
   },
   {
@@ -109,14 +98,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
     ],
   },
-  
+
   {
     sectionName: "Databases and ORMs",
     skills: [
       {
         name: "MongoDB",
         icon: MongoDBSvg,
-      }
+      },
     ],
   },
   {
@@ -125,7 +114,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Git",
         icon: GitSvg,
-      }
+      },
     ],
   },
 ];

@@ -10,7 +10,7 @@ import FadeRight from "@/animation/fade-right";
 
 export default function AboutHero() {
   return (
-    <div className="mx-auto mt-0 flex max-w-8xl flex-col items-center  px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
+    <div className="max-w-8xl mx-auto mt-0 flex flex-col items-center  px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
       {/* <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
@@ -36,7 +36,10 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-            I build modern, responsive, and user-friendly web applications using React, Next.js, TypeScript, and JavaScript. I enjoy turning ideas into real-world digital experiences with clean code and thoughtful design.
+              I build modern, responsive, and user-friendly web applications
+              using React, Next.js, TypeScript, and JavaScript. I enjoy turning
+              ideas into real-world digital experiences with clean code and
+              thoughtful design.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>

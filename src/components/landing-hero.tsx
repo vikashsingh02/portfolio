@@ -46,16 +46,18 @@ export default function LandingHero() {
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
-             <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                    I'm Vikash Singh, a Web Developer and Designer passionate about building
-                    responsive, high-performance websites and web applications. Skilled in{" "}
-               <span className="font-semibold text-accent">ReactJS</span>,{" "}
-               <span className="font-semibold text-accent">Next.js</span>,{" "}
-               <span className="font-semibold text-accent">JavaScript</span>,{" "}
+              <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
+                I m Vikash Singh, a Web Developer and Designer passionate about
+                building responsive, high-performance websites and web
+                applications. Skilled in{" "}
+                <span className="font-semibold text-accent">ReactJS</span>,{" "}
+                <span className="font-semibold text-accent">Next.js</span>,{" "}
+                <span className="font-semibold text-accent">JavaScript</span>,{" "}
                 <span className="font-semibold text-accent">HTML</span>, and{" "}
-                <span className="font-semibold text-accent">CSS</span>, I create modern
-                     digital experiences that combine clean design with seamless functionality.
-                </div>
+                <span className="font-semibold text-accent">CSS</span>, I create
+                modern digital experiences that combine clean design with
+                seamless functionality.
+              </div>
             </FadeUp>
           </AnimatePresence>
         </div>
